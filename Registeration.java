@@ -34,7 +34,7 @@ public class Registeration {
     //the system gives back the feedback to the user based on whether they logged in successfully or not//reffered from capilot
     public static String returnLoginstatus(boolean loggedIn, String lastName){
         if (loggedIn){
-            return"Welcome" + firstName + "" + lastName +",it is great to see you again";
+            return"Welcome" + firstname + "" + lastName + ",it is great to see you again";
         }else{ 
             return"Username or password incorrect. Please try again.";//when the log in was not succesful
         }
